@@ -13,7 +13,7 @@ class Hello(Plugin):
     def __init__(self):
         super().__init__()
         self.handlers[Event.ON_HANDLE_CONTEXT] = self.on_handle_context
-        logger.info("[Hello] 初始化")
+        logger.info("[Hello] 12345")
 
     def on_handle_context(self, e_context: EventContext):
 
