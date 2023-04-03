@@ -11,7 +11,7 @@ def run():
     try:
         # load config
         load_config()
-
+        logger.info("º”‘ÿ≈‰÷√≥…π¶")
         # create channel
         channel_name=conf().get('channel_type', 'wx')
         if channel_name == 'wxy':
