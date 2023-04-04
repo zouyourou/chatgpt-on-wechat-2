@@ -48,7 +48,7 @@ def login(self, enableCmdQR=False, picDir=None, qrCallback=None,
         if uuid:
             qrStorage = io.BytesIO()
         else:
-            logger.info('!!!Getting uuid of QR code.')
+            logger.info('Local Getting uuid of QR code.')
             while not self.get_QRuuid():
                 time.sleep(1)
             logger.info('Downloading QR code.')
